@@ -38,4 +38,5 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
     // Variabel untuk menyimpan hasil setelah Submit
     var nama by remember { mutableStateOf("") }
     var alamat by remember { mutableStateOf("") }
+    var jenis by remember { mutableStateOf("") }
 
