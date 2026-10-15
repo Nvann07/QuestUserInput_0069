@@ -28,4 +28,6 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun FormDataDiri(modifier: Modifier = Modifier) {
+    // Variabel untuk menyimpan masukan pengguna
+    var textNama by remember { mutableStateOf("") }
 
